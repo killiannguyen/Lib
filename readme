@@ -1,0 +1,12 @@
+git config --global user.name "Votre Nom Ici"
+git config --global user.email "votre_email@votre_email.com"
+mkdir ~/MonProjet
+cd ~/MonProjet
+git init
+touch Readme.txt
+git status
+git add Readme.txt
+git commit -m "Ajout Lisez-moi.txt"
+git remote add origin https://github.com/nomutilisateur/MonProjet.git
+git remote -v
+git push
